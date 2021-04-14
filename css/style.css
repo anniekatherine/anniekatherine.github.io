@@ -26,7 +26,9 @@ h2 {
   color: #7f5539;
   padding: 10px 0px 10px 10px;
 }
-
+a {
+  color: #fec5bb;
+}
 img {
   width: 100%;
   height: auto;
