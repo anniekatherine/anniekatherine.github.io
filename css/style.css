@@ -27,7 +27,33 @@ img {
   object-fit: cover;
   object-position: center
 }
-.wrapper { max-width: 1150px; margin: auto; padding: 50px; display: block; } .bio { color: #ffffff; font-size: 24px; font-family: 'Work Sans'; }
+.wrapper { max-width: 1150px; margin: auto; padding: 50px; display: block; } 
+.bio { color: #ffffff; font-size: 24px; font-family: 'Work Sans'; }
+.buttonBox {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.myButton {
+  border-radius: 28px;
+  border: 1px solid #ffffff;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 16px 31px;
+  text-decoration: none;
+  margin: 1.69em auto;
+}
+
+.myButton:hover {
+    background-color:#e69708;
+}
+
+.myButton:active {
+    position:relative;
+    top:1px;
+}
 .project {
   box-shadow: 0 0px 1px 0 rgba(0, 0, 0, 40%);
   width: 100%;
